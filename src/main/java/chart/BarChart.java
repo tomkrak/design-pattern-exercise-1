@@ -64,7 +64,43 @@ public class BarChart {
     }
 
 
-    public BarChartBuilder withTitle(title title) {
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+    public BarChartBuilder withTitle(String title) {
         this.title = title;
         return this;
     }
