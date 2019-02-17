@@ -62,46 +62,44 @@ public class BarChart {
         private boolean displayTitle;
         private boolean displayLegend;
     }
-
-
     public BarChartBuilder withTitle(String title) {
         this.title = title;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withFontName(String fontName) {
+        this.fontName = fontName;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withFontSize(int fontSize) {
+        this.fontSize = fontSize;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withFontColor(String fontColor) {
+        this.fontColor = fontColor;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withWidth(int width) {
+        this.width = width;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withHeight(int height) {
+        this.height = height;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withBackgroundColor(String backgroundColor) {
+        this.backgroundColor = backgroundColor;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder(List<String> data) {
+        this.data = data;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withDisplayTitle(boolean displayTitle) {
+        this.displayTitle = displayTitle;
         return this;
     }
-    public BarChartBuilder withTitle(String title) {
-        this.title = title;
+    public BarChartBuilder withDisplayLegend(boolean displayLegend) {
+        this.displayLegend = displayLegend;
         return this;
     }
 
