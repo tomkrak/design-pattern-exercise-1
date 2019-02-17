@@ -1,5 +1,9 @@
 package chart;
 
+import javafx.scene.chart.BarChartBuilder;
+import javafx.scene.layout.Priority;
+
+import java.time.LocalDate;
 import java.util.List;
 
 public class BarChart {
@@ -45,6 +49,26 @@ public class BarChart {
         this.fontColor = "Black";
         this.fontSize = 12;
     }
+
+    public static class BarChartBuilder {
+        private String title;
+        private String fontName;
+        private int fontSize;
+        private String fontColor;
+        private int width;
+        private int height;
+        private String backgroundColor;
+        private List<String> data;
+        private boolean displayTitle;
+        private boolean displayLegend;
+    }
+
+
+    public BarChartBuilder withTitle(title title) {
+        this.title = title;
+        return this;
+    }
+
 
     public String getTitle() {
         return title;
